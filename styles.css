@@ -1,0 +1,137 @@
+*{box-sizing: border-box;}
+body,html{
+	margin: 0;
+	font: 1em sans-serif;
+}
+#main{
+	background: #eef;
+	padding-bottom: 20px;
+}
+.bg-danger{
+	color: red;
+}
+legend{
+	text-align: center;
+	font-size: 1.3em;
+	font-weight: bold;
+	color: #eed;
+	text-transform: uppercase;
+	margin: 0 auto;
+}
+header{
+	text-align: center;
+	font-size: 1.3em;
+	font-weight: bolder;
+	padding-top: 10px;
+	color: #aaa;
+}
+.msg{
+		text-align: center;
+		color: #d5d5d5;
+}
+.right{
+	float: right;
+	margin: 0 auto;
+
+}
+.left{
+	float: left;margin: 0 auto;
+}
+.nav-main{
+	width: 100%;
+	height: 56.5px;
+	background: #222;
+	color: white;
+	margin-bottom: 20px;
+}
+.nav-main .logo{
+	float: left;
+	height: 45px;
+	padding: 15px 20px;
+	font-size: 1.4em;
+	line-height: 40px;
+	font-weight: bolder;
+}
+.nav-main > ul{
+	margin: 0;
+	padding: 0;
+	float: left;
+}
+.nav-main .nav-item{
+	float: left;list-style-type: none;
+}
+.nav-item a{
+	display: inline-block;
+	margin: 0 auto;
+	padding: 10px 20px;
+	font-weight: bold;
+	font-size: 1.2em;
+	text-decoration: none;
+	color: #fff;
+	line-height: 20px;
+}
+.nav-item > a:hover{
+	background-color: #555; 
+}
+.nav-item a:focus{
+	background-color:  #555; 
+	border: 1px solid  #eee;  
+}
+/*registration*/
+#register, #login{
+	width: 800px;
+	height: 340px;
+	display: block;
+	margin: 0 auto;
+	background:  #4641cf;
+}
+#login{height: 200px;}
+.form-inline{
+	padding: 10px 20px;
+	margin: 10px 20px;
+}
+.form-inline label{
+	text-transform: uppercase;
+	padding-right: 15px;
+	font-size: 16px;
+	font-weight: bold;
+	font-family: Georgia;
+	color: #dedede;
+}
+.form-inline label:after{
+	content: " :" 
+}
+.form-submit{
+	float: right;
+	padding: 5px 10px;
+	margin: 5px 10px;
+}
+
+/*files*/
+#files{
+	width: 900px;
+	margin: 0 auto;
+	padding: 0 auto;
+}
+.file{
+	position: relative;
+	padding: 5px 20px 5px;
+	margin-bottom: 10px;
+	/*border-bottom: 1px solid black;*/
+}
+.file p{
+	color: #222;
+}
+.download{
+	float: right;
+	position: absolute;
+	top: 120px;
+	left: 725px;
+}
+header h3{
+	color:#dd1155;
+	margin: 0;
+	padding: 0;
+	word-wrap: break-word;
+}
+
